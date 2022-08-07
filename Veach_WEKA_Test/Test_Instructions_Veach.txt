@@ -1,0 +1,37 @@
+First: install the latest versions of Python 3, Java and WEKA on the machine if it is not already installed.
+Second use the PIP tool to install “python-javabridge”, and then use PIP to install “python-weka-wrapper3”.
+To test that everything is installed correctly: create a Python file and put “import weka.core.jvm as jvm” inside, then try and run it to see if it installed correctly.
+Assuming that all has gone well, we will now test the program to prove efficiency.
+Download “iris.arff” and put it in an easy to access directory.
+Now run the BVW_WEKA_Test.py provided editing the location variable as instructed in the program.
+The final result should be a chart that looks like this:
+
+Naive Bayes Classifier
+
+                         Class
+Attribute          Iris-setosa Iris-versicolor  Iris-virginica
+                        (0.33)          (0.33)          (0.33)
+===============================================================
+sepallength
+  mean                        0               0               0
+  std. dev.              0.0017          0.0017          0.0017
+  weight sum                  0               0               0
+  precision                0.01            0.01            0.01
+
+sepalwidth
+  mean                        0               0               0
+  std. dev.              0.0017          0.0017          0.0017
+  weight sum                  0               0               0
+  precision                0.01            0.01            0.01
+
+petallength
+  mean                        0               0               0
+  std. dev.              0.0017          0.0017          0.0017
+  weight sum                  0               0               0
+  precision                0.01            0.01            0.01
+
+petalwidth
+  mean                        0               0               0
+  std. dev.              0.0017          0.0017          0.0017
+  weight sum                  0               0               0
+  precision                0.01            0.01            0.01
